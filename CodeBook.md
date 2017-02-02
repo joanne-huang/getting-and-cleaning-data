@@ -14,15 +14,6 @@ For each record in the dataset it is provided:
 Raw data files included "subject_test.txt", "X_test", "y_test", "subject_train.txt", "X_train.txt", "y_train.txt", "features.txt", and "activity_labels.txt".
 
 
-subject_test<-read.table("./UCI HAR Dataset/test/subject_test.txt")
-x_test<-read.table("./UCI HAR Dataset/test/X_test.txt")
-y_test<-read.table("./UCI HAR Dataset/test/y_test.txt")
-subject_train<-read.table("./UCI HAR Dataset/train/subject_train.txt")
-x_train<-read.table("./UCI HAR Dataset/train/X_train.txt")
-y_train<-read.table("./UCI HAR Dataset/train/y_train.txt")
-features<-read.table("./UCI HAR Dataset/features.txt")
-activities<-read.table("./UCI HAR Dataset/activity_labels.txt")
-
 Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
 
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
